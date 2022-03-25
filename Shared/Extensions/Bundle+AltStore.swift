@@ -25,7 +25,7 @@ public extension Bundle
 
 public extension Bundle
 {
-    static var baseAltStoreAppGroupID = "group.com.rileytestut.AltStore"
+    static var baseAltStoreAppGroupID = "group.com.matrixme.altstore"
     
     var infoPlistURL: URL {
         let infoPlistURL = self.bundleURL.appendingPathComponent("Info.plist")
